@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b04632;
+  }
+  .bola-roja{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #e45045;
+  }
+  .bola-verde{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:#28c53c;
+  }
+  .bola-amarilla{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:#ffbf2e;
+  }
+  header{
+    height:40px;
+    display: flex;
+    background-color: #983c2a;
+  }
+  .bolas{
+    margin: 0px 0px 0px 10px;
+    width:3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .iconos{
+    width: 10%px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+  }
+  button{
+    display: flex;
+    height:35px;
+    background-color: rgba(255, 255, 255, 0.295);
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 0px;
+    border-radius:3px;
+    color: white;
+  }
+  button.fa-home{
+    width:40px;
+  }
+  button.fa-trello{
+    width:90px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  button.fa-search{
+    width:150px;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .logo{
+    width:5.2%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color:rgba(255, 255, 255, 0.726);
+    font-family: 'Clicker Script', cursive;
+  }
+  .moreIcons{
+    margin-left:41.5%;
+    display: flex;
+    width:8%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .moreIcons i{
+    display:flex;
+    background-color:  rgba(255, 255, 255, 0.295);
+    width:35px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color:white;
+  }
+  .SH{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height:35px;
+    width: 35px;
+    border-radius: 35px;
+  }
+  .seccion1{
+    display:flex;
+    align-items: center;
+  }
+  .evenMoreIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width:20%;
+    margin-left: 10px;
+  }
+  .evenMoreIcons i{
+    display:flex;
+    background-color:  rgba(255, 255, 255, 0.295);
+    width:35px;
+    height:35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color:white;
+  }
+  .personal{
+    background-color: rgba(255, 255, 255, 0.295) ;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-radius: 3px;
+  }
+  section .fa-star:after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    top: 10;
+    left: 8.65%;
+    display: block;
+  }
+  section .personal:after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    top: 10;
+    left: 14.3%;
+    display: block;
+  }
+  section .fa-lock{
+    display:flex;
+    width: 100px;
+    justify-content: space-around;
+  }
+  h2{
+    color:white;
+  }
+  .invite{
+    height:35px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.295) ;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  section .fa-lock:after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: absolute;
+    top: 10;
+    left: 20%;
+    display: block;
+  }
+  .leftIcons{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    margin-left: 65%;
+    width:150px;
+  }
+  .leftIcons i{
+    width:35px;
+    height:35px;
+    background-color:rgba(255, 255, 255, 0.295) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  }
+  .leftIcons p{
+    width:100px;
+    height:35px;
+    background-color:rgba(255, 255, 255, 0.295) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  }
+  .seccion2{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .toDo{
+    margin-left:10px;
+    background-color: #cacaca;
+    width:18%;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  .toDo p{
+    background-color: white;
+    height: 25px;
+    width:95%;
+    margin: 1% 2.5% ;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+  }
+  .toDo footer{
+    margin:10px 0px 5px 10px;
+  }
+  h3{
+    margin-left: 5%;
+  }
+  .inProgress{
+    margin-left:10px;
+    background-color: #cacaca;
+    width:18%;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  .inProgress p{
+    background-color: white;
+    height: 25px;
+    width:95%;
+    margin: 1% 2.5% ;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+  }
+  .inProgress footer{
+    margin:10px 0px 5px 10px;
+  }
+  .seccion2 div{
+    width:20%;
+  }
+  .completed{
+    margin-left:10px;
+    background-color: #cacaca;
+    width:18%;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  .completed p{
+    background-color: white;
+    height: 25px;
+    width:95%;
+    margin: 1% 2.5% ;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+  }
+  .completed footer{
+    margin:10px 0px 5px 10px;
+  }
+  .empty{
+    margin-left:10px;
+    background-color: #cacaca;
+    width:18%;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  .empty footer{
+    margin:10px 0px 5px 10px;
+  }
+  .add{
+    margin: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.295);
+    width:18%;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
